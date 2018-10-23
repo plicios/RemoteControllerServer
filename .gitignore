@@ -3,3 +3,7 @@ bin
 obj
 
 \.vs/RemoteController/v15/Server/sqlite3/db\.lock
+
+\.vs/RemoteController/v15/\.suo
+
+\.vs/RemoteController/DesignTimeBuild/\.dtbcache
