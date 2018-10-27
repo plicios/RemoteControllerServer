@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "3b0d1b07-ef29-455a-9376-7e5f3cb5bca5",
+		"name": "RemoteController",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetVolume",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://localhost:44339/api/volume",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44339",
+					"path": [
+						"api",
+						"volume"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetVolume",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://localhost:44339/api/volume/80",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44339",
+					"path": [
+						"api",
+						"volume",
+						"80"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProccesses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://localhost:44339/api/processes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44339",
+					"path": [
+						"api",
+						"processes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BestPlayerGetVolume",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44339/api/bestplayer/volume",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44339",
+					"path": [
+						"api",
+						"bestplayer",
+						"volume"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BestPlayerSetVolume",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44339/api/bestplayer/volume/50",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44339",
+					"path": [
+						"api",
+						"bestplayer",
+						"volume",
+						"50"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BestPlayerTogglePlay",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44339/api/bestplayer/space",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44339",
+					"path": [
+						"api",
+						"bestplayer",
+						"space"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BestPlayerReset",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44339/api/bestplayer/reset",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44339",
+					"path": [
+						"api",
+						"bestplayer",
+						"reset"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BestPlayerTop",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44339/api/bestplayer/top",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44339",
+					"path": [
+						"api",
+						"bestplayer",
+						"top"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
