@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace RemoteController.Models
+﻿namespace RemoteController.Models
 {
     public class Process
     {

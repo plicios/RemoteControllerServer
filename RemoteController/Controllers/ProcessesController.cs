@@ -10,9 +10,8 @@ namespace RemoteController.Controllers
     [Route("api/[controller]")]
     public class ProcessesController : Controller
     {
-        // GET: api/<controller>
         [HttpGet]
-        public string Get()
+        public string GetAllProcesses()
         {
             List<Models.Process> processes = new List<Models.Process>();
             foreach (Process process in Process.GetProcesses())
